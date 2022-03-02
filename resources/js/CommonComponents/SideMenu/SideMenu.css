@@ -1,0 +1,49 @@
+.sideMenu {
+    display: flex;
+  }
+  
+  .sideMenuB {
+    background-color: rgb(244, 245, 247);
+  }
+  
+  .sideMenuTabs {
+    width: 100vw;
+    background-color: rgb(244, 245, 247);
+    /* padding-top: 80px; */
+  }
+  
+  .dropdownSideMenu {
+    position: fixed;
+    align-items: flex-start;
+    height: 100%;
+    height: 100vh;
+    left: 0px;
+    z-index: 998;
+    background: #fff;
+    overflow-y: auto;
+    /* margin: 63px 0px 0px; */
+    box-shadow: 5px 0 5px -5px #00000020, -5px 0 5px -5px #00000020;
+  }
+  
+  .dropdownCollapsed {
+    position: fixed;
+    align-items: flex-start;
+    height: 100%;
+    height: 100vh;
+    left: 0px;
+    z-index: 998;
+    overflow-y: auto;
+    background: #fff;
+    margin: 63px 0px 0px;
+    box-shadow: 5px 0 5px -5px #00000020, -5px 0 5px -5px #00000020;
+  }
+  
+ 
+
+.ant-menu-sub.ant-menu-inline{
+  background-color: white!important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected.customclass {
+  background-color: white!important; /*Overriden property*/
+}

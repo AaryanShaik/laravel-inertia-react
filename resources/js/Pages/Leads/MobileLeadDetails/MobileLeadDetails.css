@@ -1,0 +1,9 @@
+.mobileLeadDetails > .mobileLeadDetailsHeader .ant-layout-header {
+    height: 57px;
+    line-height: 57px;
+    background: white;
+}
+
+.tabs{
+    height: calc(100% - (100 + 64))
+}

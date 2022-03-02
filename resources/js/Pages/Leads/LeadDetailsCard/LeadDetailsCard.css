@@ -1,0 +1,41 @@
+.cardcontainer{
+    width:99%;
+    min-height:55vh;
+    /* margin-top: 50px; */
+    /* border:1px solid blue; */
+}
+
+.eye {
+    position:absolute;
+    /* right: 5px; */
+    /* right:50px; */
+    /* top:6px; */
+  }
+
+.panetabsoptions{
+    padding-top:10px;
+    height: 23vh;
+    overflow-y: scroll;
+}
+
+.panetabsoptions::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+.panetabsoptions::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+.panetabsoptions::-webkit-scrollbar-thumb {
+    background-color: #F4F5F7;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+  }
+
+  
+@media screen and (max-width: 1400px){
+    .cardcontainer{
+        width:100%;
+    }
+    .panetabsoptions{
+        height:24vh;
+    }
+}

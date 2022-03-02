@@ -1,0 +1,40 @@
+.topMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 30px #9299b810;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    height: 64px;
+    padding: 0 15px;
+    color: #272b41;
+    box-sizing: border-box;
+    display: block;
+    background: #fff;
+    /* border: 5px solid blue; */
+  }
+  
+  .topMenuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topMenuCollapsed {
+    padding: 0;
+  }
+  
+  .topMenuLogo {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+  
+  .ant-layout-header {
+    line-height: 10px !important;
+  }

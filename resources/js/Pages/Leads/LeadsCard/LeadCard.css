@@ -1,0 +1,12 @@
+.LeadCardBoxOuterContainer{
+    width:95%;
+    margin-bottom: 20px;
+    border:'1px solid red';
+    background: blue;
+}
+
+@media screen and (max-width: 1400px){
+    .LeadCardBoxOuterContainer{
+        width:100%;
+    }
+}

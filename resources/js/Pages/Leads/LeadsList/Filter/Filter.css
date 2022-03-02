@@ -1,0 +1,9 @@
+.ant-picker-range-wrapper .ant-picker-date-range-wrapper{
+ min-width: none !important;
+}
+
+.ant-picker-panels{
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: none !important;
+}

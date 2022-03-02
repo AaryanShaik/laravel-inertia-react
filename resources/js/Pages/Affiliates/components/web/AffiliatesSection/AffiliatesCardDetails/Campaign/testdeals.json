@@ -1,0 +1,330 @@
+[
+    {
+        "deal_type": "Endpoint",
+        "lead_type": "Auto Accident",
+        "deal_name": "Auto Accident11",
+        "deal_code": "xxx-PB1",
+        "vertical":"", 
+        "deal_edittable": false,
+        "deal_selected":false,
+        "deal_data":{
+            "field":{                   
+                "apidocslink":"",
+                "sharedocs":"",
+                "template":["1","2","3","4","5"],
+                "fieldtable":[
+                    {
+                        "key":"1",
+                        "nameanddesc":"First Name",
+                        "description":"",
+                        "refkey":"lead_first_name",
+                        "assignedat":"07/14/2020, 02:24 AM",
+                        "datatype": "String",
+                        "status":true
+                    },
+                    {
+                        "key": "2",
+                        "nameanddesc": "Last Name",
+                        "description":"",
+                        "refkey": "lead_first_name",
+                        "assignedat": "07/14/2020, 02:24 AM",
+                        "datatype": "String",
+                        "status":true
+                    },
+                    {
+                        "key": "3",
+                        "nameanddesc": "Email",
+                        "description":"",
+                        "refkey": "lead_first_name",
+                        "assignedat": "07/14/2020, 02:24 AM",
+                        "datatype": "String",
+                        "status":true
+                    },
+                    {
+                        "key":"4",
+                        "nameanddesc": "Phone",
+                        "description":"",
+                        "refkey": "lead_first_name",
+                        "assignedat": "07/14/2020, 02:24 AM",
+                        "datatype": "Number",
+                        "status":true
+                    }
+                ]
+                },
+            "settings":{                  
+                "initials":"",
+                "buyprice":"",
+                "channel":{          
+                    "web":false,
+                    "api":false,
+                    "phone":false
+                },
+                "buffer":"",
+                "dataviaapi": false,
+                "capstable":[
+                    {
+                        "key":"1",
+                        "frequency":"Daily",
+                        "maxlimit":"150"
+                    },
+                    {
+                        "key": "2",
+                        "frequency": "Monthly",
+                        "maxlimit": "150"
+                    }
+                ]
+                },
+            "callcenter":{              
+                "lead_source_provider_key":"",
+                "send_data_to_call_center":false,
+                "call_center_template": "",
+                "direction":"",
+                "twilio_DID":"",
+                "call_center_DID":"",
+                "scriptlink":"",
+                "send_link":"",
+                "scriptdata":""
+                },
+            "location":{     
+                "locationtable":[
+                    {
+                        "key": "0",
+                        "name": "NY",
+                        "type": "state"
+                    },
+                    {
+                        "key": "1",
+                        "name": "OH",
+                        "type": "state"
+                    },
+                    {
+                        "key": "2",
+                        "name": "LA",
+                        "type": "state"
+                    },
+                    {
+                        "key": "3",
+                        "name": "CA",
+                        "type": "state"
+                    }
+                ], 
+                "locationgeojson":[]
+            },
+            "qualifiers":{         
+                "qsendlink":"",
+                "qsharelink":"",
+                "qualifiertable":[
+                    {
+                        "key": "1",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    },
+                    {
+                        "key": "2",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    },
+                    {
+                        "key": "3",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    },
+                    {
+                        "key": "4",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    }
+                ]
+            },
+            "pixelcenter":{        
+    
+            },
+            "reporting":{         
+                "gsheet_test_input":"",
+                "gsheet_test_share_link":"",
+                "gsheet_test_send_link":"",
+                "gsheet_live_input":"",
+                "gsheet_live_share_link":"",
+                "gsheet_live_send_link":"",
+                "reportingtable":[
+                    {
+                        "A":"First Name",
+                        "B":"Last Name",
+                        "C":"Email",
+                        "D":"Phone",
+                        "E":"Address",
+                        "F":"State"
+                      }
+                ]
+            }	
+        }	
+    },
+    {
+        "deal_type": "Click",
+        "lead_type": "Auto Accident CC",
+        "deal_name": "Auto Accident22",
+        "deal_code": "xxx-PB2",
+        "vertical":"", 
+        "deal_edittable": false,
+        "deal_selected":false,
+        "deal_data":{
+            "field":{                   
+                "apidocslink":"",
+                "sharedocs":"",
+                "template":["1","2","3","4","5"],
+                "fieldtable":[
+                    {
+                        "key":"1",
+                        "nameanddesc":"First Name2",
+                        "description":"",
+                        "refkey":"lead_first_name",
+                        "assignedat":"07/14/2020, 02:24 AM",
+                        "datatype": "String",
+                        "status":true
+                    },
+                    {
+                        "key": "2",
+                        "nameanddesc": "Last Name2",
+                        "description":"",
+                        "refkey": "lead_first_name",
+                        "assignedat": "07/14/2020, 02:24 AM",
+                        "datatype": "String",
+                        "status":true
+                    },
+                    {
+                        "key": "3",
+                        "nameanddesc": "Email2",
+                        "description":"",
+                        "refkey": "lead_first_name",
+                        "assignedat": "07/14/2020, 02:24 AM",
+                        "datatype": "String",
+                        "status":true
+                    },
+                    {
+                        "key":"4",
+                        "nameanddesc": "Phone2",
+                        "description":"",
+                        "refkey": "lead_first_name",
+                        "assignedat": "07/14/2020, 02:24 AM",
+                        "datatype": "Number",
+                        "status":true
+                    }
+                ]
+                },
+            "settings":{                  
+                "initials":"",
+                "buyprice":"",
+                "channel":{          
+                    "web":false,
+                    "api":false,
+                    "phone":false
+                },
+                "buffer":"",
+                "dataviaapi": false,
+                "capstable":[
+                    {
+                        "key":"1",
+                        "frequency":"Daily",
+                        "maxlimit":"50"
+                    },
+                    {
+                        "key": "2",
+                        "frequency": "Monthly",
+                        "maxlimit": "50"
+                    }
+                ]
+                },
+            "callcenter":{              
+                "lead_source_provider_key":"",
+                "send_data_to_call_center":false,
+                "call_center_template": "",
+                "direction":"",
+                "twilio_DID":"",
+                "call_center_DID":"",
+                "scriptlink":"",
+                "send_link":"",
+                "scriptdata":""
+                },
+            "location":{     
+                "locationtable":[
+                    {
+                        "key": "0",
+                        "name": "CA",
+                        "type": "state"
+                    },
+                    {
+                        "key": "1",
+                        "name": "OH",
+                        "type": "state"
+                    },
+                    {
+                        "key": "2",
+                        "name": "LA",
+                        "type": "state"
+                    },
+                    {
+                        "key": "3",
+                        "name": "NY",
+                        "type": "state"
+                    }
+                ], 
+                "locationgeojson":[]
+            },
+            "qualifiers":{         
+                "qsendlink":"",
+                "qsharelink":"",
+                "qualifiertable":[
+                    {
+                        "key": "1",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    },
+                    {
+                        "key": "2",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    },
+                    {
+                        "key": "3",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    },
+                    {
+                        "key": "4",
+                        "parameter":"Were you injured",
+                        "condition":"equal to",
+                        "value":"Yes"
+                    }
+                ]
+            },
+            "pixelcenter":{        
+    
+            },
+            "reporting":{         
+                "gsheet_test_input":"",
+                "gsheet_test_share_link":"",
+                "gsheet_test_send_link":"",
+                "gsheet_live_input":"",
+                "gsheet_live_share_link":"",
+                "gsheet_live_send_link":"",
+                "reportingtable":[
+                    {
+                        "A":"First Name 2",
+                        "B":"Last Name 2",
+                        "C":"Email 2",
+                        "D":"Phone 2",
+                        "E":"Address 2",
+                        "F":"State 2"
+                      }
+                ]
+            }	
+        }	
+    }
+]
